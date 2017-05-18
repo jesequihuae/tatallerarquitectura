@@ -1,0 +1,28 @@
+body{
+	font-family: Serif;
+}
+
+p{
+	overflow: hidden;
+}
+
+nav ul li:hover{
+/*	background-color: #929292;
+	border-radius: 10px;*/
+	border-bottom:4px solid #FFFFFF;
+} 
+
+img.ProyectoThumbnail{
+	width: 100%; height: 230px;
+}
+
+
+.thumbnail:hover{	
+	transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+}
+
+.selected {
+    border-bottom:4px solid #FFFFFF;
+}
